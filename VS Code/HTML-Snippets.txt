@@ -1,3 +1,7 @@
+# Shift + ctrl + p = json user, delete all codes and paste these one.
+
+
+
 {
     "editor.cursorSmoothCaretAnimation": "explicit",
     "workbench.activityBar.iconClickBehavior": "focus",
