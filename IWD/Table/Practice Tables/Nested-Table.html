@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta Name="Author" content="Prince">
+        <meta Name="Description" content="Learning Nested Table">
+        <title>Nested Tables</title>
+    </head>
+    <body>
+        <h1><u>Nested Table & Lists</u></h1>
+        <table border="2" width="60%" bgcolor="" height="600" cellspacing="0">
+            <tr>
+                <th>Header Column 1</th>
+                <th>Header Column 2</th>
+                <th>Header Column 3</th>
+                <th>Header Column 4</th>
+            </tr>
+            <tr>
+                    <td>
+                        Row 2 - Item 1
+                            <ol>
+                                <li>Hello
+                                    <ul>
+                                        <li>Prince</li>
+                                        <li>Avinash</li>
+                                        <li>Sanket</li>
+                                    </ul>
+                                </li>
+                                <li>Good</li>
+                                <li>Morning</li>
+                            </ol>
+                   </td>
+                    <td>
+                        Row 2 - Item 2
+                    </td>
+                    <th rowspan=2>
+                        <i>Row 2: Nested Table 1</i>
+                
+                        <table border=2 bgcolor="lightgreen">
+                            <tr>
+                                <th>Row 1 Header</th>
+                                <td>item</td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Row 2 Header
+                                </th>
+                                <td>item</td>
+                            </tr>
+                            <tr>
+                                <th>Row 2 Header
+                                    <ul type="square">
+                                        <li>Hello</li>
+                                        <li>Good</li>
+                                        <li>Morning</li>
+                                    </ul>
+                                </th>
+                                <td>item</td>
+                            </tr>
+
+                        </table>
+        
+                    </th>
+                    <td>Row 2 - Item 4<br>
+                    A second line</td>
+                </tr>
+                <tr>
+                    <th><i>Row 3: Nested Table 2</i>
+                        <table border=2 bgcolor="Lightgreen">
+                            <tr>
+                                <th>Row 1 Header</th>
+                                <td>item</td>
+
+                            </tr>
+                            <tr>
+                                <th>Row 2 Header</th>
+                                <td>item</td>
+                            </tr>
+                        </table>
+                    </th>
+                    <td>Row 3 - Item 2
+                        <ul>
+                            <li><a href="www.google.com">Google</a></li>
+                            <li><a href="www.Facebook.com">Facebook</a></li>
+                            <li><a href="www.instagram.com">Instagram</a></li>
+                        </ul>
+                    </td>
+                    <td rowspan=2>Row 3 - Item 3</td>
+                </tr>
+                <tr>
+                    <td>Row 4 - Item 1</td>
+                    <td>Row 4 - Item 2</td>
+                    <td>Row 4 - Item 3</td>
+                </tr>
+                <tr>
+                    <td colspan=4>Row 5 - Last row ot outer table</td>
+                </tr>
+            </tr>
+        </table>
+    </body>
+</html>
