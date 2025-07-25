@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lan="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Prince">
+        <meta name="Description" content="Laerning HTML">
+        <title>Table</title>
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+    <body>
+        <table>
+            <!--I am going to add some semantic to this page for those who don't use mouse to read!
+            Even I don't know what does mean? -->
+            <caption>My <mark>Daily Schedule</mark></caption>
+            <thead>
+                <tr>
+                    
+                   <th>
+                         Time
+                    </th>
+                    <th>
+                        Activity
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <td>
+                        <time 
+                        datetime="08:00">
+                            8am
+                        </time>-
+                        <time datetime="12:00">
+                        12pm
+                        </time>
+                    </td>
+                    <td>
+                        Eat Luch
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <time 
+                        datetime="12:00">
+                            12pm
+                        </time>-
+                        <time datetime="17:00">
+                            5pm
+                        </time>
+                    </td>
+                    <td>
+                        Study for other courses
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan=2>All Other Time</td>
+                    <td>Free Time</td>
+                </tr>
+                <tr>
+                    <td>Sleep</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan=2>
+                        And That's what I do every day, 5 days a week.
+                        Just eat, sleep, code ..and recharge!!
+                    </td>
+                </tr>
+            </tfoot>
+        </table>

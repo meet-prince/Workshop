@@ -1,0 +1,15 @@
+body {
+    background-color: somkewhite;
+}
+
+a {
+    color:green;
+}
+
+a:visited{
+    color: limegreen;
+}
+
+a:hover,a:active {
+    color: brown;
+}
