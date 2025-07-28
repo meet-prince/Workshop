@@ -1,4 +1,4 @@
-# THIS IS A PROTOTYPE FORTHE ORIGINAL GAME "Game-3".
+# THIS IS A PROTOTYPE FOR THE ORIGINAL GAME "Game-3".
 # In this error could occur and stop the game.
 # I've improved this game in another file. 
 
