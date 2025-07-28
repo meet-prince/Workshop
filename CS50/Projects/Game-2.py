@@ -1,6 +1,6 @@
 # THIS IS A PROTOTYPE FOR THE ORIGINAL GAME "Game-3".
-# In this error could occur and stop the game.
-# I've improved this game in another file. 
+# In this, error like Value error could occur and stop the game.
+# I've improved this game in another file caleed "Game-3".   
 
 import random
 import cowsay
