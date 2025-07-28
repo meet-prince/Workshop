@@ -1,5 +1,5 @@
 # Improved Version Of "Game-2"
-# I didn't add  play again option yet.
+# I didn't add  "play again" option yet.
 
 from random import randint
 import cowsay
