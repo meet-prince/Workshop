@@ -10,7 +10,7 @@ from random import randint
 # This block of code will ask to user that he/she want to play again or not! 
 
 def again():
-    
+    while True:    
         try:
 
             print("Do you Want to play this game again?")
@@ -18,7 +18,11 @@ def again():
             c = input("Y/N: ").title().strip()
             if c == "Y":
                 main()
-                
+            
+            elif c == "N":
+                break
+            else:
+                print("Invalid Input")
         except ValueError:
             print("Invalid Input!")
 
